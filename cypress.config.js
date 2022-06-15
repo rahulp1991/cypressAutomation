@@ -11,7 +11,7 @@ module.exports = defineConfig({
       // implement node event listeners here
       baseUrl: 'https://account.sb.forusall.com/login',
       specPattern:'cypress/e2e/**/*.{js,jsx,ts,tsx}',
-      //excludeSpecPattern: ['**/1-getting-started/*', '**/2-advanced-examples/*'],
+      excludeSpecPattern: ['**/1-getting-started/*', '**/2-advanced-examples/*'],
 
 
     
