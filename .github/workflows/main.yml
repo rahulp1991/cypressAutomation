@@ -1,7 +1,5 @@
 // This is where configuration for CI integration with github actions goes. This code needs flushed out.
-
-
-name: Integrating Cypress tests with CI pipeline
+name: Cypress Tests
 
 on: [push]
 
